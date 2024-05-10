@@ -1,0 +1,59 @@
+.artist-album{
+    background-color: black;
+    height:100vh;
+    padding:30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.artist-album-img{
+    height:300px;
+    width:300px;
+}
+.artist-name{
+    position: relative;
+    left:30px;
+    color:white;
+    font-size:110px;
+}
+
+.artist-card{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    margin:20px;
+    text-align:center;
+}
+
+.artist-songs{
+    
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.artist-songslist{
+    margin:20px;
+    margin-bottom:30px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .artist-album-img{
+        height:150px;
+        width:150px;
+    }
+    .artist-card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        margin:20px;
+        text-align:left;
+    }
+    .artist-name{
+        font-size:50px;
+    }
+}

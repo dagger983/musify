@@ -1,0 +1,82 @@
+.sidebar {
+    float:left;
+    margin:0;
+    height:100vh;
+    width: 300px;
+    background-color:  rgb(33, 34, 34);
+    overflow: hidden;
+    
+}
+
+.sec1 {
+    display:flex;
+    flex-direction:row;
+    width: 280px;
+    height: 90px;
+    background-color:black;
+    border-radius: 20px;
+    padding:25px;
+    position: relative;
+    top:20px;
+    left:10px;
+    cursor:pointer;
+    
+}
+
+.app-title {
+    font-weight:500;
+    font-size: 30px;
+    color: white;
+}
+
+
+.sec2 {
+    width: 280px;
+    height: 430px;
+    background-color:black;
+    border-radius: 20px;
+    padding:30px;
+    position: relative;
+    top:50px;
+    left:10px;
+}
+
+
+.app-logo{
+    
+    font-size:30px;
+    color:white;
+    margin-right:20px;
+    margin-top:5px;
+}
+
+.loveimg{
+    cursor: pointer;
+    height:50px;
+    width:50px;
+    margin-top:20px;
+    border-radius:50%;
+          
+}
+
+.lovetxt{
+    position:relative;
+    color:rgba(255, 255, 255, 0.856);
+    font-weight:500;
+    font-size:30px;
+    left:80px;
+    bottom:50px;
+    cursor: pointer;
+}
+
+.footer{
+    color:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        display:none;
+    }
+    
+}

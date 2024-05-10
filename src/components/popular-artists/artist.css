@@ -1,0 +1,57 @@
+.popularartist{
+    background-color: black;
+    height:100vh;
+    padding:30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.art-head{
+    color:white;
+    position: relative;
+    left:20px;
+    user-select: none;
+    
+}
+
+
+.artistz-img{
+    height:170px;
+    width:180px;
+    border-radius:50%;
+    margin:30px;
+    cursor: pointer;
+}
+
+.artist-head{
+    color:white;
+    position:relative;
+    left:70px;
+}
+
+.popartist{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+    .artistz-img{
+        height:120px;
+        width:130px;
+        border-radius:50%;
+        margin:30px;
+        cursor: pointer;
+    }
+    .popartist{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+    .artist-head{
+        color:white;
+        position: relative;
+        left:30px;
+    }
+}
